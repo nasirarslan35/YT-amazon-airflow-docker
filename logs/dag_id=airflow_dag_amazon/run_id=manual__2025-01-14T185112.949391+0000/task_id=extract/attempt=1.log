@@ -1,0 +1,22 @@
+[2025-01-14T18:51:19.054+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-14T18:51:19.082+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_dag_amazon.extract manual__2025-01-14T18:51:12.949391+00:00 [queued]>
+[2025-01-14T18:51:19.094+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_dag_amazon.extract manual__2025-01-14T18:51:12.949391+00:00 [queued]>
+[2025-01-14T18:51:19.095+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-14T18:51:19.126+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract> on 2025-01-14 18:51:12.949391+00:00
+[2025-01-14T18:51:19.140+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=403) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-14T18:51:19.146+0000] {standard_task_runner.py:72} INFO - Started process 405 to run task
+[2025-01-14T18:51:19.149+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', '***_dag_amazon', 'extract', 'manual__2025-01-14T18:51:12.949391+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/dag_v1.py', '--cfg-path', '/tmp/tmpr0xae3dr']
+[2025-01-14T18:51:19.155+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask extract
+[2025-01-14T18:51:19.278+0000] {task_command.py:467} INFO - Running <TaskInstance: airflow_dag_amazon.extract manual__2025-01-14T18:51:12.949391+00:00 [running]> on host 2a376efbc6a3
+[2025-01-14T18:51:19.497+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='nasir' AIRFLOW_CTX_DAG_ID='***_dag_amazon' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-01-14T18:51:12.949391+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-14T18:51:12.949391+00:00'
+[2025-01-14T18:51:19.501+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-14T18:51:21.947+0000] {logging_mixin.py:190} INFO - 2025-01-09 06:50:41
+[2025-01-14T18:54:43.992+0000] {logging_mixin.py:190} INFO - None
+[2025-01-14T18:54:43.993+0000] {logging_mixin.py:190} INFO - Inserted 1600000 new tweets successfully.
+[2025-01-14T18:54:44.313+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-14T18:54:44.325+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-14T18:54:44.326+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=***_dag_amazon, task_id=extract, run_id=manual__2025-01-14T18:51:12.949391+00:00, execution_date=20250114T185112, start_date=20250114T185119, end_date=20250114T185444
+[2025-01-14T18:54:44.391+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-14T18:54:44.401+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

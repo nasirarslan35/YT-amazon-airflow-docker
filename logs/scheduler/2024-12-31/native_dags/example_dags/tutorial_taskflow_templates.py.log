@@ -1,0 +1,666 @@
+[2024-12-31T21:26:45.017+0000] {processor.py:186} INFO - Started process (PID=96) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:26:45.018+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:26:45.021+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:26:45.042+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:26:45.201+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.200+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_templates
+[2024-12-31T21:26:45.214+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.214+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_templates
+[2024-12-31T21:26:45.225+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.224+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_templates
+[2024-12-31T21:26:45.236+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.236+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_templates
+[2024-12-31T21:26:45.246+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.245+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_templates
+[2024-12-31T21:26:45.256+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.255+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_templates
+[2024-12-31T21:26:45.266+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.266+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_templates
+[2024-12-31T21:26:45.267+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:26:45.288+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.288+0000] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_templates
+[2024-12-31T21:26:45.305+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:26:45.305+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:26:45.332+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.323 seconds
+[2024-12-31T21:27:15.985+0000] {processor.py:186} INFO - Started process (PID=158) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:15.986+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:27:15.989+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:15.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:16.012+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:16.043+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:16.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:27:16.074+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:16.074+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:27:16.094+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.118 seconds
+[2024-12-31T21:27:46.549+0000] {processor.py:186} INFO - Started process (PID=221) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:46.550+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:27:46.553+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:46.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:46.569+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:27:46.593+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:46.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:27:46.622+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:27:46.622+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:27:46.647+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.107 seconds
+[2024-12-31T21:28:17.298+0000] {processor.py:186} INFO - Started process (PID=284) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:17.299+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:28:17.302+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:17.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:17.318+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:17.346+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:17.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:28:17.376+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:17.376+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:28:17.398+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2024-12-31T21:28:49.537+0000] {processor.py:186} INFO - Started process (PID=347) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:49.538+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:28:49.541+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:49.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:49.565+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:28:49.629+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:49.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:28:49.677+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:28:49.676+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:28:49.713+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.187 seconds
+[2024-12-31T21:29:20.673+0000] {processor.py:186} INFO - Started process (PID=410) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:20.674+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:29:20.677+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:20.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:20.692+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:20.714+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:20.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:29:20.741+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:20.740+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:29:20.763+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.098 seconds
+[2024-12-31T21:29:53.351+0000] {processor.py:186} INFO - Started process (PID=473) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:53.352+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:29:53.355+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:53.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:53.372+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:29:53.399+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:53.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:29:53.434+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:29:53.434+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:29:53.459+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds
+[2024-12-31T21:30:26.435+0000] {processor.py:186} INFO - Started process (PID=536) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:26.437+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:30:26.440+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:26.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:26.458+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:26.490+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:26.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:30:26.523+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:26.523+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:30:26.550+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.123 seconds
+[2024-12-31T21:30:59.702+0000] {processor.py:186} INFO - Started process (PID=599) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:59.703+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:30:59.708+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:59.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:59.730+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:30:59.761+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:59.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:30:59.797+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:30:59.796+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:30:59.823+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.130 seconds
+[2024-12-31T21:31:32.364+0000] {processor.py:186} INFO - Started process (PID=662) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:31:32.366+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:31:32.368+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:31:32.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:31:32.386+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:31:32.415+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:31:32.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:31:32.444+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:31:32.444+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:31:32.467+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.110 seconds
+[2024-12-31T21:32:05.001+0000] {processor.py:186} INFO - Started process (PID=726) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:05.003+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:32:05.008+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:05.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:05.029+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:05.066+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:05.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:32:05.104+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:05.104+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:32:05.129+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.138 seconds
+[2024-12-31T21:32:37.980+0000] {processor.py:186} INFO - Started process (PID=790) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:37.982+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:32:37.987+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:37.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:38.008+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:32:38.038+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:38.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:32:38.075+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:32:38.075+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:32:38.104+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.132 seconds
+[2024-12-31T21:33:09.792+0000] {processor.py:186} INFO - Started process (PID=854) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:09.793+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:33:09.797+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:09.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:09.817+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:09.845+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:09.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:33:09.878+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:09.878+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:33:09.903+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.118 seconds
+[2024-12-31T21:33:41.619+0000] {processor.py:186} INFO - Started process (PID=918) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:41.620+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:33:41.623+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:41.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:41.639+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:33:41.665+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:41.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:33:41.694+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:33:41.694+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:33:41.716+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.105 seconds
+[2024-12-31T21:34:14.896+0000] {processor.py:186} INFO - Started process (PID=983) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:14.897+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:34:14.900+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:14.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:14.914+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:14.935+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:14.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:34:14.960+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:14.960+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:34:14.983+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.098 seconds
+[2024-12-31T21:34:46.523+0000] {processor.py:186} INFO - Started process (PID=1047) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:46.525+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:34:46.528+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:46.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:46.543+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:34:46.565+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:46.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:34:46.595+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:34:46.594+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:34:46.618+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.102 seconds
+[2024-12-31T21:35:19.561+0000] {processor.py:186} INFO - Started process (PID=1110) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:19.563+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:35:19.568+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:19.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:19.587+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:19.617+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:19.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:35:19.681+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:19.680+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:35:19.720+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.167 seconds
+[2024-12-31T21:35:52.120+0000] {processor.py:186} INFO - Started process (PID=1175) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:52.121+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:35:52.125+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:52.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:52.144+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:35:52.175+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:52.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:35:52.206+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:35:52.205+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:35:52.230+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.119 seconds
+[2024-12-31T21:36:24.442+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:24.443+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:36:24.446+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:24.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:24.462+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:24.486+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:24.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:36:24.516+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:24.516+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:36:24.536+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.101 seconds
+[2024-12-31T21:36:57.910+0000] {processor.py:186} INFO - Started process (PID=1302) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:57.912+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:36:57.914+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:57.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:57.933+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:36:57.957+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:57.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:36:57.986+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:36:57.985+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:36:58.008+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.106 seconds
+[2024-12-31T21:37:31.672+0000] {processor.py:186} INFO - Started process (PID=1369) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:37:31.674+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:37:31.676+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:37:31.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:37:31.692+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:37:31.716+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:37:31.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:37:31.746+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:37:31.746+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:37:31.773+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2024-12-31T21:38:03.434+0000] {processor.py:186} INFO - Started process (PID=1433) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:03.436+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:38:03.439+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:03.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:03.458+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:03.486+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:03.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:38:03.519+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:03.519+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:38:03.548+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.123 seconds
+[2024-12-31T21:38:36.684+0000] {processor.py:186} INFO - Started process (PID=1498) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:36.686+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:38:36.690+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:36.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:36.714+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:38:36.749+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:36.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:38:36.792+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:38:36.792+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:38:36.817+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.143 seconds
+[2024-12-31T21:39:08.979+0000] {processor.py:186} INFO - Started process (PID=1562) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:39:08.980+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:39:08.983+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:39:08.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:39:09.003+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:39:09.033+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:39:09.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:39:09.065+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:39:09.065+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:39:09.090+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.119 seconds
+[2024-12-31T21:41:27.052+0000] {processor.py:186} INFO - Started process (PID=99) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:27.053+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:41:27.056+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:27.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:27.075+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:27.114+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:27.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:41:27.144+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:27.143+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:41:27.164+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.119 seconds
+[2024-12-31T21:41:57.914+0000] {processor.py:186} INFO - Started process (PID=162) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:57.915+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:41:57.919+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:57.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:57.941+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:41:57.973+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:57.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:41:58.013+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:41:58.012+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:41:58.041+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.136 seconds
+[2024-12-31T21:42:28.916+0000] {processor.py:186} INFO - Started process (PID=225) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:28.917+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:42:28.921+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:28.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:28.937+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:28.960+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:28.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:42:28.994+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:28.994+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:42:29.024+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.118 seconds
+[2024-12-31T21:42:59.854+0000] {processor.py:186} INFO - Started process (PID=289) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:59.855+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:42:59.858+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:59.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:59.874+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:42:59.902+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:59.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:42:59.931+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:42:59.931+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:42:59.958+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.111 seconds
+[2024-12-31T21:43:30.602+0000] {processor.py:186} INFO - Started process (PID=352) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:43:30.604+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:43:30.606+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:43:30.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:43:30.622+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:43:30.648+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:43:30.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:43:30.676+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:43:30.676+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:43:30.703+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2024-12-31T21:44:01.219+0000] {processor.py:186} INFO - Started process (PID=416) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:01.220+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:44:01.225+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:01.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:01.245+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:01.278+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:01.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:44:01.324+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:01.323+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:44:01.361+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.152 seconds
+[2024-12-31T21:44:33.490+0000] {processor.py:186} INFO - Started process (PID=480) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:33.491+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:44:33.494+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:33.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:33.515+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:44:33.555+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:33.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:44:33.585+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:44:33.584+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:44:33.608+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.126 seconds
+[2024-12-31T21:45:06.210+0000] {processor.py:186} INFO - Started process (PID=544) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:06.212+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:45:06.216+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:06.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:06.233+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:06.257+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:06.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:45:06.290+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:06.290+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:45:06.313+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.110 seconds
+[2024-12-31T21:45:39.469+0000] {processor.py:186} INFO - Started process (PID=608) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:39.471+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:45:39.474+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:39.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:39.493+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:45:39.519+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:39.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:45:39.552+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:45:39.552+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:45:39.577+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds
+[2024-12-31T21:46:12.077+0000] {processor.py:186} INFO - Started process (PID=672) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:12.078+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:46:12.082+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:12.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:12.104+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:12.138+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:12.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:46:12.174+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:12.174+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:46:12.200+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.132 seconds
+[2024-12-31T21:46:45.535+0000] {processor.py:186} INFO - Started process (PID=738) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:45.536+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:46:45.540+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:45.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:45.560+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:46:45.590+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:45.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:46:45.627+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:46:45.627+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:46:45.659+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.134 seconds
+[2024-12-31T21:47:19.261+0000] {processor.py:186} INFO - Started process (PID=802) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:19.262+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:47:19.265+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:19.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:19.281+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:19.305+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:19.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:47:19.336+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:19.336+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:47:19.361+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.106 seconds
+[2024-12-31T21:47:50.250+0000] {processor.py:186} INFO - Started process (PID=866) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:50.251+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:47:50.255+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:50.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:50.273+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:47:50.300+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:50.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:47:50.332+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:47:50.332+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:47:50.356+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.114 seconds
+[2024-12-31T21:48:22.788+0000] {processor.py:186} INFO - Started process (PID=931) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:22.790+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:48:22.794+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:22.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:22.821+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:22.855+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:22.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:48:22.899+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:22.899+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:48:22.928+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.151 seconds
+[2024-12-31T21:48:55.711+0000] {processor.py:186} INFO - Started process (PID=996) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:55.712+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:48:55.715+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:55.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:55.730+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:48:55.753+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:55.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:48:55.779+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:48:55.779+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:48:55.802+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.097 seconds
+[2024-12-31T21:49:29.250+0000] {processor.py:186} INFO - Started process (PID=1060) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:49:29.251+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:49:29.255+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:49:29.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:49:29.277+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:49:29.308+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:49:29.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:49:29.341+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:49:29.341+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:49:29.369+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.129 seconds
+[2024-12-31T21:50:00.670+0000] {processor.py:186} INFO - Started process (PID=1124) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:00.672+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:50:00.676+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:00.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:00.701+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:00.739+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:00.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:50:00.785+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:00.785+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:50:00.815+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.156 seconds
+[2024-12-31T21:50:33.003+0000] {processor.py:186} INFO - Started process (PID=1188) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:33.005+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:50:33.008+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:33.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:33.024+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:50:33.051+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:33.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:50:33.085+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:50:33.085+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:50:33.108+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.112 seconds
+[2024-12-31T21:51:06.568+0000] {processor.py:186} INFO - Started process (PID=1252) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:06.569+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:51:06.572+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:06.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:06.591+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:06.618+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:06.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:51:06.650+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:06.650+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:51:06.677+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.117 seconds
+[2024-12-31T21:51:46.595+0000] {processor.py:186} INFO - Started process (PID=1317) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:46.601+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:51:46.606+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:46.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:46.651+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:51:46.709+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:46.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:51:46.787+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:51:46.786+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:51:46.838+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.261 seconds
+[2024-12-31T21:52:18.963+0000] {processor.py:186} INFO - Started process (PID=1381) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:18.965+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:52:18.974+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:18.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:19.009+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:19.070+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:19.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:52:19.145+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:19.145+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:52:19.197+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.251 seconds
+[2024-12-31T21:52:49.793+0000] {processor.py:186} INFO - Started process (PID=1446) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:49.795+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:52:49.798+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:49.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:49.816+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:52:49.843+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:49.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:52:49.875+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:52:49.874+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:52:49.902+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds
+[2024-12-31T21:53:20.347+0000] {processor.py:186} INFO - Started process (PID=1509) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:20.349+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:53:20.352+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:20.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:20.370+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:20.398+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:20.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:53:20.435+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:20.434+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:53:20.462+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.123 seconds
+[2024-12-31T21:53:50.662+0000] {processor.py:186} INFO - Started process (PID=1572) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:50.664+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:53:50.668+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:50.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:50.713+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:53:50.775+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:50.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:53:50.835+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:53:50.835+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:53:50.873+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.221 seconds
+[2024-12-31T21:54:21.086+0000] {processor.py:186} INFO - Started process (PID=1636) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:21.088+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:54:21.091+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:21.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:21.110+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:21.139+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:21.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:54:21.173+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:21.172+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:54:21.200+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.122 seconds
+[2024-12-31T21:54:54.061+0000] {processor.py:186} INFO - Started process (PID=1700) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:54.062+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:54:54.067+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:54.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:54.094+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:54:54.122+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:54.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:54:54.186+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:54:54.184+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:54:54.225+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.175 seconds
+[2024-12-31T21:55:26.039+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:26.040+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:55:26.043+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:26.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:26.062+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:26.088+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:26.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:55:26.118+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:26.118+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:55:26.141+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.112 seconds
+[2024-12-31T21:55:59.027+0000] {processor.py:186} INFO - Started process (PID=1828) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:59.028+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:55:59.031+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:59.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:59.048+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:55:59.075+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:59.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:55:59.106+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:55:59.106+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:55:59.131+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.111 seconds
+[2024-12-31T21:56:31.662+0000] {processor.py:186} INFO - Started process (PID=1892) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:56:31.664+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:56:31.666+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:56:31.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:56:31.684+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:56:31.712+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:56:31.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:56:31.742+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:56:31.742+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:56:31.765+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.110 seconds
+[2024-12-31T21:57:04.454+0000] {processor.py:186} INFO - Started process (PID=1956) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:04.455+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:57:04.458+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:04.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:04.477+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:04.503+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:04.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:57:04.532+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:04.532+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:57:04.558+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.111 seconds
+[2024-12-31T21:57:36.562+0000] {processor.py:186} INFO - Started process (PID=2021) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:36.564+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:57:36.566+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:36.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:36.582+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:57:36.605+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:36.605+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:57:36.638+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:57:36.637+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:57:36.663+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2024-12-31T21:58:09.238+0000] {processor.py:186} INFO - Started process (PID=2085) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:09.242+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:58:09.246+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:09.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:09.269+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:09.296+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:09.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:58:09.326+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:09.325+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:58:09.347+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.121 seconds
+[2024-12-31T21:58:43.006+0000] {processor.py:186} INFO - Started process (PID=2149) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:43.008+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:58:43.012+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:43.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:43.039+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:58:43.077+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:43.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:58:43.121+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:58:43.120+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:58:43.151+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.157 seconds
+[2024-12-31T21:59:14.988+0000] {processor.py:186} INFO - Started process (PID=2213) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:14.990+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:59:14.992+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:14.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:15.011+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:15.056+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:15.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:59:15.090+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:15.089+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:59:15.116+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.137 seconds
+[2024-12-31T21:59:47.986+0000] {processor.py:186} INFO - Started process (PID=2278) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:47.988+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T21:59:47.991+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:47.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:48.011+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T21:59:48.043+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:48.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T21:59:48.082+0000] {logging_mixin.py:190} INFO - [2024-12-31T21:59:48.082+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T21:59:48.121+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.142 seconds
+[2024-12-31T22:00:19.737+0000] {processor.py:186} INFO - Started process (PID=2341) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:19.740+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:00:19.749+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:19.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:19.768+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:19.797+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:19.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:00:19.828+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:19.828+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:00:19.856+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.131 seconds
+[2024-12-31T22:00:52.749+0000] {processor.py:186} INFO - Started process (PID=2405) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:52.751+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:00:52.754+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:52.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:52.771+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:00:52.794+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:52.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:00:52.824+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:00:52.824+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:00:52.846+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.106 seconds
+[2024-12-31T22:01:25.812+0000] {processor.py:186} INFO - Started process (PID=2473) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:25.814+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:01:25.817+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:25.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:25.834+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:25.856+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:25.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:01:25.887+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:25.887+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:01:25.910+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2024-12-31T22:01:57.974+0000] {processor.py:186} INFO - Started process (PID=2538) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:57.975+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:01:57.977+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:57.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:57.996+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:01:58.023+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:58.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:01:58.054+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:01:58.054+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:01:58.080+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.115 seconds
+[2024-12-31T22:02:31.379+0000] {processor.py:186} INFO - Started process (PID=2602) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:02:31.380+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:02:31.382+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:02:31.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:02:31.407+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:02:31.433+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:02:31.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:02:31.466+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:02:31.466+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:02:31.489+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.121 seconds
+[2024-12-31T22:03:03.825+0000] {processor.py:186} INFO - Started process (PID=2668) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:03.827+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:03:03.828+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:03.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:03.846+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:03.871+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:03.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:03:03.906+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:03.906+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:03:03.932+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.113 seconds
+[2024-12-31T22:03:36.122+0000] {processor.py:186} INFO - Started process (PID=2733) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:36.123+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:03:36.124+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:36.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:36.140+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:03:36.163+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:36.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:03:36.192+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:03:36.191+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:03:36.216+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.104 seconds
+[2024-12-31T22:04:08.769+0000] {processor.py:186} INFO - Started process (PID=2798) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:08.770+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:04:08.772+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:08.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:08.789+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:08.821+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:08.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:04:08.856+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:08.856+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:04:08.881+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.120 seconds
+[2024-12-31T22:04:41.433+0000] {processor.py:186} INFO - Started process (PID=2864) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:41.434+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:04:41.436+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:41.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:41.452+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:04:41.477+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:41.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:04:41.512+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:04:41.512+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:04:41.538+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.112 seconds
+[2024-12-31T22:05:14.634+0000] {processor.py:186} INFO - Started process (PID=2929) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:14.636+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:05:14.638+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:14.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:14.661+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:14.705+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:14.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:05:14.770+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:14.770+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:05:14.803+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.176 seconds
+[2024-12-31T22:05:46.353+0000] {processor.py:186} INFO - Started process (PID=2994) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:46.355+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:05:46.357+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:46.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:46.384+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:05:46.407+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:46.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:05:46.435+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:05:46.435+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:05:46.460+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds
+[2024-12-31T22:06:18.594+0000] {processor.py:186} INFO - Started process (PID=3059) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:18.595+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:06:18.597+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:18.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:18.613+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:18.639+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:18.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:06:18.666+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:18.666+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:06:18.690+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.104 seconds
+[2024-12-31T22:06:52.067+0000] {processor.py:186} INFO - Started process (PID=3123) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:52.069+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:06:52.070+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:52.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:52.093+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:06:52.130+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:52.129+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:06:52.169+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:06:52.169+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:06:52.195+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.137 seconds
+[2024-12-31T22:07:25.510+0000] {processor.py:186} INFO - Started process (PID=3189) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:25.511+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:07:25.512+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:25.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:25.531+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:25.561+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:25.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:07:25.599+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:25.598+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:07:25.620+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.117 seconds
+[2024-12-31T22:07:59.013+0000] {processor.py:186} INFO - Started process (PID=3252) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:59.015+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:07:59.016+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:59.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:59.031+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:07:59.054+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:59.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:07:59.252+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:07:59.251+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:07:59.274+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.268 seconds
+[2024-12-31T22:08:29.918+0000] {processor.py:186} INFO - Started process (PID=3317) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:08:29.919+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:08:29.921+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:08:29.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:08:29.937+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:08:29.962+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:08:29.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:08:29.993+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:08:29.993+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:08:30.208+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.297 seconds
+[2024-12-31T22:09:02.278+0000] {processor.py:186} INFO - Started process (PID=3384) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:02.279+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:09:02.281+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:02.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:02.301+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:02.327+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:02.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:09:02.362+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:02.362+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:09:02.388+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.117 seconds
+[2024-12-31T22:09:36.616+0000] {processor.py:186} INFO - Started process (PID=3450) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:36.617+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:09:36.619+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:36.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:36.637+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:09:36.664+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:36.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:09:36.699+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:09:36.699+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:09:36.725+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.117 seconds
+[2024-12-31T22:10:08.633+0000] {processor.py:186} INFO - Started process (PID=3515) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:08.635+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:10:08.637+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:08.636+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:08.658+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:08.687+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:08.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:10:08.718+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:08.717+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:10:08.744+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.121 seconds
+[2024-12-31T22:10:40.045+0000] {processor.py:186} INFO - Started process (PID=3580) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:40.047+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:10:40.048+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:40.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:40.064+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:10:40.089+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:40.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:10:40.122+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:10:40.122+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:10:40.147+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.109 seconds
+[2024-12-31T22:11:13.263+0000] {processor.py:186} INFO - Started process (PID=3643) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:13.265+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:11:13.271+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:13.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:13.300+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:13.335+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:13.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:11:13.394+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:13.394+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:11:13.437+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.186 seconds
+[2024-12-31T22:11:45.545+0000] {processor.py:186} INFO - Started process (PID=3708) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:45.546+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:11:45.549+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:45.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:45.575+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:11:45.616+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:45.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:11:45.656+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:11:45.656+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:11:45.685+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.150 seconds
+[2024-12-31T22:12:19.772+0000] {processor.py:186} INFO - Started process (PID=3773) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:19.774+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:12:19.776+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:19.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:19.796+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:19.830+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:19.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:12:19.865+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:19.865+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:12:19.893+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.129 seconds
+[2024-12-31T22:12:51.124+0000] {processor.py:186} INFO - Started process (PID=3838) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:51.126+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:12:51.128+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:51.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:51.153+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:12:51.208+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:51.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:12:51.257+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:12:51.257+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:12:51.284+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.169 seconds
+[2024-12-31T22:13:23.065+0000] {processor.py:186} INFO - Started process (PID=3903) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:23.067+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:13:23.069+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:23.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:23.087+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:23.115+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:23.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:13:23.148+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:23.148+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:13:23.173+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds
+[2024-12-31T22:13:55.935+0000] {processor.py:186} INFO - Started process (PID=3967) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:55.936+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:13:55.939+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:55.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:55.961+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:13:56.005+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:56.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:13:56.044+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:13:56.044+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:13:56.069+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.143 seconds
+[2024-12-31T22:14:28.925+0000] {processor.py:186} INFO - Started process (PID=4034) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:14:28.926+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:14:28.928+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:14:28.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:14:28.945+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:14:28.970+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:14:28.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:14:29.003+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:14:29.003+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:14:29.027+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.109 seconds
+[2024-12-31T22:15:01.353+0000] {processor.py:186} INFO - Started process (PID=4099) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:01.355+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:15:01.357+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:01.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:01.382+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:01.405+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:01.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:15:01.440+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:01.439+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:15:01.462+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.119 seconds
+[2024-12-31T22:15:34.875+0000] {processor.py:186} INFO - Started process (PID=4164) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:34.877+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:15:34.879+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:34.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:34.897+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:15:34.922+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:34.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:15:34.953+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:15:34.952+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:15:35.039+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.173 seconds
+[2024-12-31T22:16:06.421+0000] {processor.py:186} INFO - Started process (PID=4230) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:06.422+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:16:06.424+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:06.424+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:06.452+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:06.512+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:06.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:16:06.565+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:06.565+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:16:06.615+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.204 seconds
+[2024-12-31T22:16:39.402+0000] {processor.py:186} INFO - Started process (PID=4295) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:39.404+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:16:39.405+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:39.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:39.428+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:16:39.454+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:39.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:16:39.494+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:16:39.494+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:16:39.525+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.133 seconds
+[2024-12-31T22:18:32.351+0000] {processor.py:186} INFO - Started process (PID=98) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:18:32.353+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:18:32.357+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:18:32.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:18:32.381+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:18:32.424+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:18:32.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:18:32.480+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:18:32.480+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:18:32.514+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.175 seconds
+[2024-12-31T22:19:03.241+0000] {processor.py:186} INFO - Started process (PID=162) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:03.242+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:19:03.245+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:03.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:03.262+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:03.288+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:03.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:19:03.317+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:03.317+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:19:03.337+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.103 seconds
+[2024-12-31T22:19:34.388+0000] {processor.py:186} INFO - Started process (PID=227) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:34.389+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:19:34.393+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:34.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:34.409+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:19:34.440+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:34.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:19:34.477+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:19:34.477+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:19:34.506+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.127 seconds
+[2024-12-31T22:20:05.439+0000] {processor.py:186} INFO - Started process (PID=293) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:20:05.440+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-31T22:20:05.443+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:20:05.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:20:05.461+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-31T22:20:05.487+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:20:05.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-31T22:20:05.514+0000] {logging_mixin.py:190} INFO - [2024-12-31T22:20:05.514+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-30 00:00:00+00:00, run_after=2024-12-31 00:00:00+00:00
+[2024-12-31T22:20:05.537+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.104 seconds
